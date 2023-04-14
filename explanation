@@ -1,0 +1,79 @@
+Hai,
+    my project name : Scientific Calculator in Python using Tkinter
+
+
+Explanation:
+
+       Python Scientific Calculator was created by using tkinter (GUI) .
+   This project is based on a straightforward GUI and is very simple to comprehend and use.
+   Additionally, the user may easily learn how to execute numerical computations with the help of this project.
+   Like a typical calculator, the project has numbers, operators, and signs.
+        In order to enter any number or simply click on the numbers they desire for the computations, the user needs only click.
+   As a result, the user of this application can utilize a straightforward calculator.
+   Here we imported some libraries and set up the title for our Scientific Calculator in the Python window.
+   We also used the geometry() function of the Tkinter library to set the size of the window.
+   Besides that, we have also used a grid() function to place each and every box in its calculator at the correct
+   position and designed the overall calc in the form of a grid.
+
+
+
+      In this code section, we used the class to add various functions.
+ At first, we defined the class with the name Calc() and then defined all the functions that we  want in our
+ Scientific Calculator in Python in the form of a Python function. Apart from that, we have also defined the function
+ to handle the input number entered by the user. Also, to check if the function is valid or not we have defined a
+ separate function in this class. We have included almost all the important functions that are in a normal scientific calculator.
+ In this, we have made use of a math library and various built-in functions in that library.
+ These functions are called when the button relating to it is clicked by the user.
+ The logic of the function is made using the functions provided by the math library.
+
+   In this code block, we have defined a variable to store the Calc() class in it.
+ On top of that, in order to display the text box, where in the user can see the entered values and functions,
+ we have added a text box and customized it according to our needs. To set the size of the textbox we made use of width.
+ Here bd stands for border. We changed the fonts, background, and alignment of the text.
+ We also used the grid() function of the Tkinter library to set its position in a proper way.
+     Here, in this part of Scientific Calculator in Python, we have defined a variable named “numberpad” that stores
+  all the digits. Now in order to make a separate box for each of the digits, we made use of for loop.
+  This loop helps us to create 9 boxes for 9 digits that will be of the same size and font.
+  Using the for loop helps us to eradicate the need of writing the code 9 times to display the boxes.
+  In this part of the code for Scientific Calculator in Python, the two buttons help the user to
+  handle the operation like clearing a digit or a function. The buttons for Clear All clear everything that is added
+  in the textbox. In this also we have customized the buttons according to our needs.
+      These above variables are for the buttons that are for performing various operations like Multiply,
+  Divide, Subtract, Add etc. These buttons when clicked, call the respective function that is attached to them,
+  thus helping the user in performing the desired operation easily. For the design purpose, we made use of all
+  the properties that are provided by the Button function of the Tkinter library. On top of that,
+  a grid() function is also used somewhere.
+
+     In this function row, we have added the buttons for the functions of Pi, sin, cos, and tan.
+  This same pattern goes on for the other 4 rows. Also, we have added the functions along with the respective buttons.
+
+
+     In this code section, we have the code to make up the Menubar. This will simply come on top of the calculator.
+  We have added multiple options like File and Edit. Moreover, to handle the opening and closing of
+  the Scientific calc window we have defined two new functions namely Standard() and Scientific().
+  Inside these functions, we have used the resizable and geometry functions of the Tkinter library.
+      about the sub-options in the “File” button there is a feature to switch between “Standard” and “Scientific”
+   Calculator. Inside the “Edit” button there is Copy, Paste andCut option. These options will help to copy
+   the answers, paste other values in this calc and also cut the answer. Whenever the user will click on the
+   Scientific calculator, a window beside the Standard Calc will open up. A separate window helps a user to close
+   and access Scientific calc with more use and thus we decided to code in such a way
+
+
+      Scientific Calculator in Python using Tkinter. We really hope that this program turns out to be a great
+   source of help to you. I  tried my best to explain each and every concept involved in this program.
+
+      In this GUI Scientific Calculator in Python project ,I have added some basic to intermediate functions,
+   below features explain.
+
+Features of Scientific Calculator:
+    All basic operators like addition, multiplication, subtraction, and division.
+    Dedicated buttons for sin, cos, tan, and cot.
+    Functions for log
+    Functions for ratio and exponents.
+    Other buttons like Pi, mod, and x!
+
+   conclusion :
+     Scientific calc is created by using python code and executed successfully
+
+
+    thank you....
